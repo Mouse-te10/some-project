@@ -1,0 +1,40 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #4A4A4A;
+    .header {
+        width: 100vw;
+        background-color: #2C2C2C;
+        position: relative;
+        top: -21px;
+        left: -8px;
+        height: 70px;
+        .logo {
+            background-image: linear-gradient(to top, rgb(255, 255, 255), yellow);
+            background-clip: text;
+            text-align: center;
+            color: transparent;
+            cursor: pointer;
+        }
+        ul {
+            padding-inline: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 23px;
+            display: inline-flex;
+            width: 100%;
+            justify-content: space-between;
+            li {
+                list-style-type: none;
+                a {
+                    &:hover {
+                        color: rgb(194, 194, 194);
+                    }
+                    font-size: 20px;
+                    transition: 0.2s;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
