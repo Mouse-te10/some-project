@@ -1,18 +1,18 @@
 body {
   font-family: "Inter", sans-serif;
-  background-color: #4A4A4A;
+  background-color: #ffffff;
 }
 body .header {
   width: 100vw;
-  background-color: #2C2C2C;
+  background-color: #c9c9c9;
   position: relative;
   top: -21px;
   left: -8px;
   height: 70px;
 }
 body .header .logo {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), to(yellow));
-  background-image: linear-gradient(to top, rgb(255, 255, 255), yellow);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(137, 137, 137)), to(rgb(91, 91, 0)));
+  background-image: linear-gradient(to top, rgb(137, 137, 137), rgb(91, 91, 0));
   -webkit-background-clip: text;
           background-clip: text;
   text-align: center;
