@@ -129,7 +129,7 @@ header .image{
 }
 
 header .image::before{
-    content: "o";
+    content: "B";
     position: absolute;
     top: 0;
     left: 50%;

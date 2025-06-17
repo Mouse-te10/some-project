@@ -6,14 +6,15 @@ function Header() {
         <div className="content">
             <span className="blur"></span>
             <span className="blur"></span>
-            <h4>CREATE YOUR SITE LIKE A PRO</h4>
-            <h1>Hi, I'm <span>Bogdan</span>, Web Developer</h1>
+            <h4>Ваш сайт станет профессиональным</h4>
+            <h1>Привет, меня зовут <span>Bogdan</span>, я Web-разработчик</h1>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus rem eos aliquid quo rerum
-                temporibus ipsum distinctio numquam ut omnis placeat, nam sint atque quos dolorem laborum? Rerum, esse
-                dolorem.
+                Молодой и амбициозный Frontend-разработчик с фокусом 
+                на создание современных веб-приложений на базе React. 
+                Быстро учусь, проявляю инициативу в решении сложных 
+                технических задач и стремлюсь к постоянному профессиональному росту.
             </p>
-            <button className="btn">Get Started</button>
+            <button className="btn">Начать </button>
         </div>
         <div className="image">
             

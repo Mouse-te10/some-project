@@ -4,7 +4,6 @@ import './index.css';
 import Nav from './navLinks.jsx'
 import Header from './header.jsx'
 import SectionOne from './sectionOne.jsx'
-import SectionTwo from './sectionTwo.jsx'
 import Footer from './footer.jsx'
 import './index.css'
 
@@ -14,7 +13,6 @@ root.render(
     <Nav />
     <Header />
     <SectionOne />
-    <SectionTwo />
     <Footer></Footer>
   </React.StrictMode>
 );
