@@ -2,7 +2,7 @@ import React from "react";
 
 function sectionOne() {
     return (
-        <section className="container">
+        <section className="container" id="section-features">
         <h2 className="header">МОИ НАВЫКИ</h2>
         <div className="features">
             <div className="card">

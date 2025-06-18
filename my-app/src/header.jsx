@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <header className="container">
+        <header className="container" id="header-link">
         <div className="content">
             <span className="blur"></span>
             <span className="blur"></span>

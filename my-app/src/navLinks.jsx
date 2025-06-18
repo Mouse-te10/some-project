@@ -1,20 +1,18 @@
 import React from "react"
 
 function Nav() {
-    return (
-        <nav>
-        <div className="nav-logo">
-            <a href="#">
-                
-            </a>
-        </div>
 
+    const gitHub = () => {
+        window.location.href = 'https://github.com/Mouse-te10'
+    }
+    return (
+    <nav>
         <ul className="nav-links">
-            <li className="link"><a href="#">Главная</a></li>
-            <li id="link1" className="link"><a href="#">Особенности</a></li>
-            <li id="link3" className="link"><a href="#">Контакты</a></li>
+            <li className="link"><a href="#header-link">Главная</a></li>
+            <li id="link1" className="link"><a href="#section-features">Особенности</a></li>
+            <li id="link3" className="link"><a href="#footer-link">Контакты</a></li>
         </ul>
-        <button className="btn">Связаться со мной</button>
+        <button className="btn" onClick={gitHub}>GitHub</button>
     </nav>
     )
 }

@@ -69,13 +69,16 @@ nav{
     font-size: 1rem;
     color: #fff;
     background-color: #1d4ed8;
+    border: 2px solid #1d4ed8;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color: #ffffff;
+    border: 2px solid #1d4ed8;
+    color: #1d4ed8;
 }
 
 .container{
@@ -149,7 +152,7 @@ header .image img{
 
 section .header{
     margin-bottom: 1rem;
-    color: #fff;
+    color: #1d4ed8;
     text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
