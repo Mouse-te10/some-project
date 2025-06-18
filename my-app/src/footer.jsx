@@ -6,8 +6,9 @@ function footer() {
         <span className="blur"></span>
         <span className="blur"></span>
         <div className="column">
-            <div className="logo">
-            </div>
+            <h4 className="logo">
+                Благодарности
+            </h4>
             <p>
                 Я очень рад что ты долистал до сюда дружище!
             </p>
