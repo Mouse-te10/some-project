@@ -1,0 +1,47 @@
+.slider {
+    background-color: #1d4ed8;
+    width: 50vw;
+    height: 100vh;
+}
+
+.first-animation {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 100vw;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    animation: 3s animation-first;
+}
+.slider-top {
+    height: 100vh;
+    width: 50px;
+    position: absolute;
+    top: -1000px;
+    animation: 2s animation-top;
+    background-color: rgb(255, 254, 170);
+}
+
+@keyframes animation-first {
+    0% {
+            gap: 0;
+    }
+    60% {
+            gap: 0;
+    }
+    100% {
+            gap: 100vw;
+    }
+}
+@keyframes animation-top {
+    0% {
+        top: 0px;
+    }
+    30% {
+        top: 0px;
+    }
+    100% {
+        top: -1000px;
+    }
+}
