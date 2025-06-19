@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
 
 import './index.css'
 
-function FirstAnim() {
+function FirstAnim() {    
+    useEffect(() => {
+            const timeoutId = setTimeout(() => {
+                document.querySelector('.first-animation').style.display = 'none'
+            }, 3000);
+            
+            // Очищаем таймер при размонтировании компонента
+            return () => clearTimeout(timeoutId);
+    }, []); 
     return (
         <div className="first-animation">
             <div className="slider slider-one"></div>
